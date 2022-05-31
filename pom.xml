@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.github.mwttg-games</groupId>
+    <artifactId>game-dev-toolz</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>18</maven.compiler.source>
+        <maven.compiler.target>18</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
+
+    <url>https://github.com/mwttg-games/game-dev-toolz</url>
+    <organization>
+        <name>private</name>
+        <url>https://github.com/mwttg-games</url>
+    </organization>
+    <developers>
+        <developer>
+            <id>mwttg</id>
+            <email>Marco-Wittig@gmx.de</email>
+        </developer>
+    </developers>
+
+</project>
