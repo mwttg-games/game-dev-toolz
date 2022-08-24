@@ -21,11 +21,12 @@ public class Tiles2Array {
 
   private static Configuration createConfiguration() {
     return new Configuration(
-        "./data/example/level-blocks.png",
-        "./data/example/level-blocks.json",
+        "./data/scene-test-for-p006/level-solid-grid.png",
+        "./data/scene-test-for-p006/level-solid-grid.json",
         new Size(16, 18),
-        Map.of("FF00FF", 0,
-            "0000FF", 1,
-            "00FF00", 2));
+        Map.of("000000", 0, // WALKABLE
+            "FF00FF", 1,        // SOLID
+            "FF0000", 2,        // LADDER TOP
+            "FF5000", 3));      // LADDER BODY
   }
 }
