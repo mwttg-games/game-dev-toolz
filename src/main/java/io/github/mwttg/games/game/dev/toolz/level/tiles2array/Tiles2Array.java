@@ -24,9 +24,10 @@ public class Tiles2Array {
         "./data/scene-test-for-p006/level-solid-grid.png",
         "./data/scene-test-for-p006/level-solid-grid.json",
         new Size(16, 18),
-        Map.of("000000", 0, // WALKABLE
+        Map.of("000000", 0, // WALKABLE (Solid)
             "FF00FF", 1,        // SOLID
             "FF0000", 2,        // LADDER TOP
-            "FF5000", 3));      // LADDER BODY
+            "FF5000", 3,        // LADDER BODY
+            "C800FF", 4));      // THIN PLATFORM
   }
 }
