@@ -21,8 +21,8 @@ public class Tiles2Array {
 
   private static Configuration createConfiguration() {
     return new Configuration(
-        "./data/scene-test-for-p007/solid-grid.png",
-        "./data/scene-test-for-p007/solid-grid.json",
+        "./data/p007-rooms/room5-solid.png",
+        "./data/p007-rooms/room5-solid.json",
         new Size(16, 18),
         Map.of("000000", 0, // WALKABLE (Solid)
             "FF00FF", 1,        // SOLID
